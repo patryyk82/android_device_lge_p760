@@ -99,7 +99,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storag
 BOARD_CUSTOM_GRAPHICS := ../../../device/lge/p760/recovery-gfx.c
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# 
+# Run ADB as root 
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
 
 # p940 included to support some widely used generic CWM recovery
