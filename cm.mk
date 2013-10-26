@@ -3,6 +3,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
+CM_BUILDTYPE := RELEASE
 
 # This device has NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
